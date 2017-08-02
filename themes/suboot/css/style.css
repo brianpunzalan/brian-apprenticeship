@@ -1,3 +1,385 @@
 /**
  * Place your custom styles here.
  */
+
+.darken{
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn a{
+    color: white;
+}
+
+.btn a:active{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 1025px){
+    .paragraph .read-more{
+        margin-top: 40px;
+        margin-left: 50%;
+        left: -100px;
+        width: 200px;
+        position: relative;
+    }
+
+    .paragraph .read-more a{
+        font-size: 2em;
+    }
+
+    .paragraph .company-slogan{
+        margin: auto;
+        z-index: 2;
+    }
+
+    .paragraph .company-slogan p{
+        font-size: 3em;
+        -ms-word-wrap: normal;
+        word-wrap: normal;
+        text-align: center;
+    }
+
+    #hero-details{
+        position: absolute;
+        top:20vh;
+        left:50%;
+        background-color: rgba(256,256,256, 0.7);
+        z-index: 2;
+        padding: 50px;
+        margin-left: -250px;
+        width: 500px;
+    }
+    #navbar{
+        position: absolute;
+        width: 100%;
+        margin: 0px;
+        background-color: transparent;
+        border: 0px;
+        z-index: 3;
+        padding: 20px;
+    }
+    #navbar a{
+        z-index: 3;
+        color: #d9edf7;
+    }
+    .hero-slideshow img{
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+    }
+    .hero-slideshow::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgba(0,0,0,0.3);
+        height: 100vh;
+    }
+    section {
+        padding: 0px !important;
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    .slick-dots {
+        bottom: 70px;
+    }
+
+    .hero-slideshow{
+        display: block;
+         }
+    .mobile-hero-slideshow{
+        display: none;
+    }
+    .tablet-hero-slideshow{
+        display: none;
+    }
+    .laptop-hero-slideshow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .paragraph .read-more{
+        margin-top: 40px;
+        margin-left: 50%;
+        left: -80px;
+        width: 160px;
+        position: relative;
+    }
+
+    .paragraph .read-more a{
+        font-size: 1.25em;
+    }
+
+    .paragraph .company-slogan{
+        margin: auto;
+        z-index: 2;
+    }
+
+    .paragraph .company-slogan p{
+        font-size: 2em;
+        -ms-word-wrap: normal;
+        word-wrap: normal;
+        text-align: center;
+    }
+
+    #hero-details{
+        position: absolute;
+        top:20vh;
+        margin-left:50%;
+        background-color: rgba(256,256,256, 0.7);
+        z-index: 2;
+        padding: 50px;
+        left: -250px;
+        width: 500px;
+    }
+
+    #navbar{
+        position: absolute;
+        width: 100%;
+        margin: 0px;
+        background-color: transparent;
+        border: 0px;
+        z-index: 3;
+        padding: 20px;
+    }
+    #navbar a{
+        z-index: 3;
+        color: #d9edf7;
+    }
+    .hero-slideshow img{
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+    }
+    .hero-slideshow::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgba(0,0,0,0.3);
+        height: 100vh;
+    }
+    section {
+        padding: 0px !important;
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    .slick-dots {
+        bottom: 70px;
+    }
+
+    .hero-slideshow{
+        display: none;
+    }
+    .mobile-hero-slideshow{
+        display: none;
+    }
+    .tablet-hero-slideshow{
+        display: none;
+    }
+    .laptop-hero-slideshow{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .paragraph .read-more{
+        margin-top: 40px;
+        margin-left: 50%;
+        left: -60px;
+        width: 120px;
+        position: relative;
+    }
+
+    .paragraph .read-more a{
+        font-size: 1em;
+    }
+
+    .paragraph .company-slogan{
+        margin: auto;
+        z-index: 2;
+    }
+
+    .paragraph .company-slogan p{
+        font-size: 1.3em;
+        -ms-word-wrap: normal;
+        word-wrap: normal;
+        text-align: center;
+    }
+
+    #hero-details{
+        position: absolute;
+        top:20vh;
+        left:50%;
+        background-color: rgba(256,256,256, 0.7);
+        z-index: 2;
+        padding: 50px;
+        margin-left: -175px;
+        width: 350px;
+    }
+    #navbar{
+        position: absolute;
+        width: 100%;
+        margin: 0px;
+        background-color: transparent;
+        border: 0px;
+        z-index: 3;
+        padding: 20px;
+    }
+    #navbar a{
+        z-index: 3;
+        color: #d9edf7;
+    }
+
+    .hero-slideshow img{
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+    }
+    .hero-slideshow::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgba(0,0,0,0.3);
+        height: 100vh;
+    }
+    section {
+        padding: 0px !important;
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    .slick-dots {
+        bottom: 70px;
+    }
+
+    .hero-slideshow{
+        display: none;
+    }
+    .mobile-hero-slideshow{
+        display: none;
+    }
+    .tablet-hero-slideshow{
+        display: block;
+    }
+    .laptop-hero-slideshow{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .paragraph .read-more{
+        margin-top: 40px;
+        margin-left: 50%;
+        left: -60px;
+        width: 120px;
+        position: relative;
+    }
+
+    .paragraph .read-more a{
+        font-size: 1em;
+    }
+
+    .paragraph .company-slogan{
+        margin: auto;
+        z-index: 2;
+    }
+
+    .paragraph .company-slogan p{
+        font-size: 1.3em;
+        -ms-word-wrap: normal;
+        word-wrap: normal;
+        text-align: center;
+    }
+
+    #hero-details{
+        position: absolute;
+        top:20vh;
+        left:50%;
+        background-color: rgba(256,256,256, 0.7);
+        z-index: 2;
+        padding: 50px;
+        margin-left: -125px;
+        width: 250px;
+    }
+
+    #navbar{
+        position: absolute;
+        width: 100%;
+        margin: 0px;
+        background-color: transparent;
+        border: 0px;
+        z-index: 3;
+        padding: 20px;
+    }
+    #navbar a{
+        z-index: 3;
+        color: #d9edf7;
+    }
+    .hero-slideshow img{
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+    }
+    .hero-slideshow::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgba(0,0,0,0.3);
+        height: 100vh;
+    }
+    section {
+        padding: 0px !important;
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    .slick-dots {
+        bottom: 70px;
+    }
+
+    .hero-slideshow{
+        display: none;
+    }
+    .mobile-hero-slideshow{
+        display: block;
+    }
+    .tablet-hero-slideshow{
+        display: none;
+    }
+    .laptop-hero-slideshow{
+        display: none;
+    }
+}
